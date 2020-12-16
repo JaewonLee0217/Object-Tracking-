@@ -3,26 +3,28 @@ C:\opencv\build\include\opencv2\core\mat.hpp(1965,1): warning C4819: 현재 코�
 C:\opencv\build\include\opencv2\core\persistence.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\opencv\build\include\opencv2\core\utility.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\opencv\build\include\opencv2\core\utility.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Users\pc\Downloads\Object-Tracking--Vehicle-tracking\Object-Tracking--Vehicle-tracking\Main\Main\Main.cpp(16,30): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
-C:\Users\pc\Downloads\Object-Tracking--Vehicle-tracking\Object-Tracking--Vehicle-tracking\Main\Main\Main.cpp(94,48): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\pc\Downloads\Object-Tracking--Vehicle-tracking\Object-Tracking--Vehicle-tracking\Main\Main\Main.cpp(109,74): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pc\Downloads\Object-Tracking--main\Object-Tracking--main\Main\Main\Main.cpp(13,30): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\pc\Downloads\Object-Tracking--main\Object-Tracking--main\Main\Main\Main.cpp(66,48): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pc\Downloads\Object-Tracking--main\Object-Tracking--main\Main\Main\Main.cpp(80,74): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               _Tp=int
           ]
-C:\Users\pc\Downloads\Object-Tracking--Vehicle-tracking\Object-Tracking--Vehicle-tracking\Main\Main\Main.cpp(109,56): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pc\Downloads\Object-Tracking--main\Object-Tracking--main\Main\Main\Main.cpp(80,56): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               _Tp=int
           ]
-C:\Users\pc\Downloads\Object-Tracking--Vehicle-tracking\Object-Tracking--Vehicle-tracking\Main\Main\Main.cpp(110,66): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pc\Downloads\Object-Tracking--main\Object-Tracking--main\Main\Main\Main.cpp(81,66): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               _Tp=int
           ]
-C:\Users\pc\Downloads\Object-Tracking--Vehicle-tracking\Object-Tracking--Vehicle-tracking\Main\Main\Main.cpp(110,48): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pc\Downloads\Object-Tracking--main\Object-Tracking--main\Main\Main\Main.cpp(81,48): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               _Tp=int
           ]
-  Main.vcxproj -> C:\Users\pc\Downloads\Object-Tracking--Vehicle-tracking\Object-Tracking--Vehicle-tracking\Main\x64\Debug\Main.exe
+LINK : warning LNK4098: 'MSVCRT' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
+gsl.lib(linear.obj) : warning LNK4099: 'gsl.pdb' PDB를 'gsl.lib(linear.obj)' 또는 'C:\Users\pc\Downloads\Object-Tracking--main\Object-Tracking--main\Main\x64\Debug\gsl.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  Main.vcxproj -> C:\Users\pc\Downloads\Object-Tracking--main\Object-Tracking--main\Main\x64\Debug\Main.exe
